@@ -19,7 +19,9 @@
       <div class="about">
         <div class="bio">
           <h1>Kirtana Choragudi </h1>
-            <p>👋</p>
+          <div >
+            <p class="zoom">👋</p>
+          </div>
             <p> I'm a student at the <a href="https://umich.edu/" target="_blank">University of Michigan</a>
              majoring in Business Administration and Computer Science. Outside of school, I teach
              <a href="https://eecs183.org//" target="_blank">EECS 183</a>
@@ -30,8 +32,13 @@
                  practicing yoga, running or cycling, and reading.
                  My passion lies in using my talents to make the world a better and more equitable place.</p>
         </div>   <!-- bio -->
+
         <div class="picture">
-          <img src="images/kirtana.png" >
+          <picture>
+          <source srcset="images/small-kirtana.png" media="(max-width: 400px)">
+            <source srcset="images/kirtana.png">
+          <img src="images/kirtana.png" alt="Baby Kirtana" >
+    </picture>
         </div>
       </div> <!-- about -->
       <div class="contact">
