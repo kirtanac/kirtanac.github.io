@@ -1,2 +1,5 @@
-# website-template - EECS 183 Special Topics Lab
-Here's a basic structure to get you started for your website!
+# Kirtana's Personal site
+## TODO:
+- fix hover on social icons
+- add link to resume
+- add a better picture
