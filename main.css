@@ -1,6 +1,6 @@
 html {
   font-family: 'Inter', sans-serif;
-  color: #342D33;
+  color: #652A46;
 }
 
 body {
@@ -28,9 +28,10 @@ p {
 }
 
 a {
-    color: #83558a;
+    color: #652A46;
     text-decoration: none;
 }
+
 
 .site-home .about p a {
     border-bottom: 1px solid;
@@ -86,6 +87,7 @@ a {
 
 .fab{
     transition: transform .2s;
+
 }
 
  .fab:hover{
@@ -107,7 +109,17 @@ a {
 
 }
 
-.site-home .about .picture {
+.textlink{
+  transition: transform .2s;
+
+}
+
+.textlink:hover{
+    background-color: #D0A98F;
+transform: scale(1.2);
+}
+
+/* .site-home .about .picture {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
     width: 10%;
@@ -115,4 +127,4 @@ a {
 max-height:1%;
 top: 25%;
 padding-right: 20px;
-}
+} */
