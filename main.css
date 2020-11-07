@@ -86,13 +86,35 @@ a {
 }
 
 .fab{
-    transition: transform .2s;
-
+    transition: transform .2s !important;
+      color: #342D33;
 }
 
  .fab:hover{
+    transform: scale(1.5) !important;
+    color: #652A46;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+}
+
+
+.k-logo{
+    transition: transform .2s;
+    text-align: center;
+    width: 35px;
+    height: 100%;
+    margin-left: 0;
+
+}
+
+ .k-logo:hover{
     color: #342D33;
-    transform: scale(1.5);
+    margin-right: 20px;
+     transform: scale(2);
+
 }
 
 
@@ -110,13 +132,14 @@ a {
 }
 
 .textlink{
-  transition: transform .2s;
+  transition: transform .2s !important;
 
 }
 
 .textlink:hover{
-    background-color: #D0A98F;
-transform: scale(1.2);
+    color: #D0A98F;
+font-size:20px;
+font-weight: bold;
 }
 
 /* .site-home .about .picture {
