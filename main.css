@@ -1,6 +1,7 @@
 html {
   font-family: 'Nanum Gothic', sans-serif;
   color: #652A46;
+  background-color: #F4EEEA;
 }
 
 body {
@@ -138,7 +139,8 @@ a {
 }
 
 .textlink:hover{
-font-weight: bolder;
+font-weight: bold;
+
 }
 
 /* .site-home .about .picture {
